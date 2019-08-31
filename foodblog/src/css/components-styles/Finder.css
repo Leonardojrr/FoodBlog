@@ -1,0 +1,7 @@
+#Finder_container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+  width: 33.33%;
+}

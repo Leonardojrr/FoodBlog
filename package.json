@@ -1,0 +1,24 @@
+{
+  "name": "foodblog",
+  "version": "1.0.0",
+  "description": "Food blog",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonardojrr/FoodBlog.git"
+  },
+  "author": "@Leonardojrr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leonardojrr/FoodBlog/issues"
+  },
+  "homepage": "https://github.com/Leonardojrr/FoodBlog#readme",
+  "dependencies": {
+    "create-react-app": "^3.1.1",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
