@@ -3,5 +3,59 @@
   justify-items: center;
   align-items: center;
   height: 100%;
-  width: 33.33%;
+  width: 53.313%;
+  position: relative;
+}
+
+#search_field {
+  width: 94%;
+  height: 55.55%;
+  border: 2px #e8e8e8 solid;
+  border-radius: 5px;
+  background: #f9f9f9;
+  padding: 0 0 0 8px;
+  color: #343434;
+  font-size: 16px;
+  font-family: "Roboto";
+  transition: 0.15s;
+}
+
+#search_field:focus {
+  outline: none;
+  border: 2px #c8fe75 solid;
+  background: white;
+  transform: scale(1.05);
+}
+
+::placeholder {
+  color: #989898;
+  font-family: "Roboto";
+}
+
+.cls-1,
+.cls-3 {
+  fill: none;
+}
+
+.cls-1 {
+  stroke: #8e8e8e;
+  stroke-width: 2px;
+}
+
+.cls-2 {
+  stroke: none;
+}
+
+#search_icon_container {
+  position: absolute;
+  height: 21px;
+  right: 50px;
+}
+
+#search_icon_container:hover .cls-1 {
+  stroke: #adff2f;
+}
+
+#search_icon_container:hover {
+  cursor: pointer;
 }

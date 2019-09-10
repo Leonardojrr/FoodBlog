@@ -1,6 +1,7 @@
 let React = require("react");
-let logo = require("../media/hamburger.svg");
+let logo = require("../media/icons/hamburger.svg");
 let { Finder } = require("./Finder");
+let { Usermenu } = require("./Usermenu");
 require("../css/components-styles/Navbar.css");
 
 class Navbar extends React.Component {
@@ -14,6 +15,7 @@ class Navbar extends React.Component {
           <img src={logo} alt="" />
         </div>
         <Finder />
+        <Usermenu click_menu_bottom={this.props.click_menu_bottom} />
       </div>
     );
   }

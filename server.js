@@ -1,10 +1,11 @@
 let express = require("express");
 let app = express();
+let UsersRouter = require("./routes/users");
+let PostsRouter = require("./routes/posts");
+let bodyParser = require("body-parser");
 
-let port = 5000;
-
-app.listen(port, () => {
-  console.log("express is listening at port: " + port);
+app.listen(5000, () => {
+  console.log("express is listening");
 });
 
 app.use(function(req, res, next) {
@@ -16,6 +17,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.get("/food", (req, resp) => {
-  resp.json({ nombre: "leonardo", apellido: "Rodrigues" });
-});
+app.use(bodyParser.json());
+
+app.use("/users", UsersRouter);
+app.use("/posts", PostsRouter);

@@ -1,0 +1,10 @@
+#post_list {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+#posts_container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,102 @@
+#user_menu_container {
+  display: flex;
+  width: 20.3352%;
+  height: 100%;
+  border-radius: 0 5px 5px 0;
+}
+
+#user_menu_container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#user_drop_container {
+  height: 100%;
+  width: 60%;
+  background: #adff2f;
+}
+
+#user_icon {
+  cursor: pointer;
+  width: 25.26%;
+  height: 77%;
+}
+
+#drop_down_arrow {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-top: 8px white solid;
+  border-left: 8px transparent solid;
+  border-right: 8px transparent solid;
+  margin-left: 10px;
+}
+
+#drop_down_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13vw;
+  height: 6vh;
+  background: white;
+  position: absolute;
+  right: 14.5vw;
+  top: 16.5vh;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#drop_down_menu p {
+  word-spacing: 5px;
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: #5e5e5e;
+}
+
+#drop_down_menu p span {
+  font-size: 17px;
+  color: #adff2f;
+  user-select: none;
+  font-weight: bold;
+}
+
+#drop_down_menu p span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#drop_down_menu::before {
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 10px white solid;
+  border-left: 10px transparent solid;
+  border-right: 10px transparent solid;
+}
+
+#burger_menu_container {
+  height: 100%;
+  width: 40%;
+  background: #adff2f;
+}
+
+#burger_menu_container:hover {
+  cursor: pointer;
+  background: #99e12b;
+}
+
+#burger_menu_container img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.active {
+  visibility: visible;
+}
+
+.disable {
+  visibility: hidden;
+}

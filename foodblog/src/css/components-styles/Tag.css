@@ -1,0 +1,76 @@
+#tag {
+  width: 62%;
+  flex: 0 0 auto;
+}
+
+.grill {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 43, 1) 0%,
+    rgba(39, 39, 39, 1) 100%
+  );
+}
+
+.salad {
+  background: linear-gradient(
+    45deg,
+    rgba(108, 246, 29, 1) 0%,
+    rgba(0, 149, 10, 1) 100%
+  );
+}
+
+.spicy {
+  background: linear-gradient(
+    45deg,
+    rgba(211, 246, 29, 1) 0%,
+    rgba(255, 94, 0, 1) 100%
+  );
+}
+
+.tips {
+  background: linear-gradient(
+    45deg,
+    rgba(239, 29, 246, 1) 0%,
+    rgba(41, 0, 255, 1) 100%
+  );
+}
+
+.meat {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 82, 82, 1) 0%,
+    rgba(152, 26, 26, 1) 100%
+  );
+}
+
+.cool {
+  background: linear-gradient(
+    45deg,
+    rgba(0, 255, 238, 1) 0%,
+    rgba(26, 79, 206, 1) 100%
+  );
+}
+
+.fastfood {
+  background: linear-gradient(
+    45deg,
+    rgba(94, 255, 94, 1) 0%,
+    rgba(255, 238, 0, 1) 100%
+  );
+}
+
+.party {
+  background: radial-gradient(
+    circle,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(255, 0, 94, 1) 100%
+  );
+}
+
+.recipe {
+  background: radial-gradient(
+    circle,
+    rgba(126, 106, 114, 1) 0%,
+    rgba(218, 218, 218, 1) 100%
+  );
+}
