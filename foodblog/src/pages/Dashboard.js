@@ -8,7 +8,7 @@ require("../css/pages-styles/Dashboard.css");
 
 class Dashboard extends React.Component {
   state = {
-    open_menu: [false, "hide", "hide_close_buttom"],
+    open_menu: [false, "hide", "hide_close_butcd documentstom"],
     data: [
       {
         list_id: 0,
